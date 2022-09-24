@@ -99,6 +99,3 @@ bool Map::load(const std::string& tileset, sf::Vector2u tileSize, const int* til
 			quad[3].texCoords = sf::Vector2f(tu * tileSize.x, (tv + 1) * tileSize.y);
 		}
 }
-
-
-

@@ -1,6 +1,5 @@
 #include <SFML/Graphics.hpp>
-#include "SceneNode.h"
-class Entity : public SceneNode {
+class Entity {
 public:
 	void setVelocity(sf::Vector2f vel);
 	void setVelocity(float velX, float velY);
